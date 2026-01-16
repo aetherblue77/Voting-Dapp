@@ -77,6 +77,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+---
 
 ## 📂 Project Structure
 
@@ -95,6 +96,8 @@ frontend/
 ├── .env.local           # Environment Variables (Ignored by Git)
 └── ...
 ```
+
+---
 
 ## 🐛 Troubleshooting
 - **"Project ID is not defined"**: Make sure you created the `.env` file and restarted the server (`yarn dev`).
