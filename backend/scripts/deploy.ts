@@ -17,7 +17,7 @@ async function main() {
     const durationInMinutes = networkConfig[chainId].votingDurationInMinutes
 
     if (!candidateNames || !durationInMinutes) {
-        throw new Error("Missing candidate names or voting duration in configuration")
+        throw new Error("Candidate names or duration in minutes not found")
     }
 
     const votingFactory = await ethers.getContractFactory("Voting")
